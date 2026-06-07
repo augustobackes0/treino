@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+body {
+    height: 4000px;
+}
+
+
+header {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    background-color: white;
+    z-index: 1000;
+    
+}
+
+
+
+header > p > span {
+    color: rgb(0, 119, 255);
+}
+header > img {
+    padding-left: 50px;
+}
+
+.titulo {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.botoes {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.botoes:hover {
+    color: white;
+    background-color: rgb(0, 119, 255);
+    border-radius: 4px;
+    background-attachment: fixed;
+}
+
+#ctt {
+    text-align: right;
+    margin-right: 60px;
+    background-color: rgb(0, 119, 255);
+    padding: 7px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+#praia {
+    width: 100vw;
+}
+
+#article01 {
+    color: white;
+    position: relative;
+    
+}
+
+#sob-img {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    
+
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#sla {
+    color: white;
+    background-color: rgb(0, 119, 255);
+    border-radius: 4px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#oi {
+    display: flex;
+   justify-content: center;
+}
+
+#soluçoes {
+    
+    font-size: 2em;
+   text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paragrafos {
+    width: 100%;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.foto {
+    height: 50px;
+    width: 40px;
+    background-color: gainsboro;
+    padding: 20px;
+    border-radius: 50%;
+    
+}
+
+#h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

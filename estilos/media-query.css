@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Mobile */
+
+@media (max-width: 767px) {
+    #praia {
+    width: 100vw;
+    width: 767px;
+    height: 500px;
+    }
+    
+    
+    
+}
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+
+}
